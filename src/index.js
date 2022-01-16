@@ -15,10 +15,10 @@ const typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .typeString("Hey There!, I'm Vinay Gawade.👋")
+  .typeString("Hey There!, I'm <span>Vinay Gawade</span>.👋")
   .pauseFor(1000)
   .deleteAll()
-  .typeString("I'm a Web developer.💻🚀👨‍💻")
+  .typeString("I'm a <span>Web Developer.</span>💻🚀👨‍💻")
   .pauseFor(1000)
   .deleteAll()
   .start();

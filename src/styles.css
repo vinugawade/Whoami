@@ -8,7 +8,12 @@
   font-style: normal;
   font-display: swap;
 }
-
+#app > .text {
+  color: #dc3545;
+}
+span {
+  color: #fff;
+}
 body {
   font-family: "JetBrains Mono";
 }
